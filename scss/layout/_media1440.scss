@@ -1,0 +1,19 @@
+@media (min-width:1440px) {
+    .video {
+        display: none;
+    }
+    .conteiner-videos {
+        display: flex;
+        justify-content: center;
+    }
+    .video-ext {
+        width: 50%;
+    }
+    .conteiner-1440 {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar ul a {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul {
+  display: none; }
+
+input:checked ~ ul {
+  display: block; }
+
+input {
+  display: none; }
+
+header {
+  background-color: black; }
+
+.navbar {
+  padding: 0.5rem;
+  background-color: black;
+  width: 100%;
+  height: 100%; }
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  gap: 3.5px; }
+
+.navbar ul a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px; }
+
+.hamburguesa {
+  background-color: white;
+  display: flex; }
+
+.titulo-index {
+  padding: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 8%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif; }
+
+.video {
+  width: 100%;
+  padding-bottom: 3rem; }
+
+.index-main {
+  background-color: black; }
+
+.preparado-conteiner {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem; }
+
+.preparado-corazon {
+  width: 85%;
+  border-radius: 2rem;
+  animation: fadeIn 3s ease; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(20px); }
+  10% {
+    opacity: 1;
+    filter: brightness(2) blur(10px); } }
+
+.texto-conteiner {
+  background-color: black; }
+
+.texto-index {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem; }
+
+.iframe-container2 {
+  width: 100%;
+  background-color: #0a0f13; }
+
+.iframe2 {
+  width: 100%;
+  display: flex; }
+
+.titulo-ext4 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 1rem;
+  text-align: center;
+  background-color: #0a0f13; }
+
+.redes-sociales {
+  background-color: #0a0f13;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: end; }
+
+.ext-main {
+  background-color: black; }
+
+.video-ext {
+  width: 100%; }
+
+.titulo-ext2 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem; }
+
+.titulo-ext3 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+  text-align: center; }
+
+.texto-ext {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 0.7rem; }
+
+.situacion-conteiner {
+  display: flex;
+  justify-content: center; }
+
+.situacion-corazon {
+  width: 90%;
+  padding: 1rem; }
+
+.iframe-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.iframe-1 {
+  width: 95%;
+  padding: 1rem; }
+
+.iframe-conteiner3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem; }
+
+@media (min-width: 768px) {
+  .navbar {
+    background-image: url(../assets/background-corazon3.jpg);
+    background-size: cover;
+    background-position: 100%;
+    height: 8.5rem; }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    gap: 2rem; }
+  .navbar ul a {
+    font-size: 1rem;
+    font-weight: bold; }
+  .titulo-index {
+    font-size: 3rem;
+    top: 40%; }
+  .hamburguesa {
+    display: none; }
+  .preparado-corazon {
+    width: 70%; }
+  .iframe-1 {
+    height: 300px; }
+  .iframe2 {
+    height: 300px; }
+  .redes-sociales {
+    align-content: center; } }
+
+@media (min-width: 1024px) {
+  .titulo-index {
+    font-size: 3.7rem; }
+  .redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+  .titulo-ext2 {
+    font-size: 4rem; }
+  .titulo-ext3 {
+    font-size: 2rem; }
+  .texto-ext {
+    font-size: 1.2rem; }
+  .iframe-1 {
+    height: 400px; }
+  .texto-index {
+    font-size: 1.2rem; }
+  .titulo-ext4 {
+    font-size: 1.2rem; }
+  .navbar ul {
+    gap: 4rem;
+    padding-right: 3rem; }
+  .redes-sociales {
+    align-content: center; } }
+
+@media (min-width: 1440px) {
+  .video {
+    display: none; }
+  .conteiner-videos {
+    display: flex;
+    justify-content: center; }
+  .video-ext {
+    width: 50%; }
+  .conteiner-1440 {
+    display: flex;
+    justify-content: center; }
+  .navbar ul a {
+    font-size: 1.5rem; } }

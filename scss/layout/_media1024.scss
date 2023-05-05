@@ -1,0 +1,35 @@
+@media (min-width:1024px) {
+    .titulo-index {
+        font-size: 3.7rem;
+    }
+    .redes-sociales {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .titulo-ext2 {
+        font-size: 4rem;
+    }
+    .titulo-ext3 {
+        font-size: 2rem;
+    }
+    .texto-ext {
+        font-size: 1.2rem;
+    }
+    .iframe-1 {
+        height: 400px;
+    }
+    .texto-index {
+        font-size: 1.2rem;
+    }
+    .titulo-ext4 {
+        font-size: 1.2rem;
+    }
+    .navbar ul {
+        gap: 4rem;
+        padding-right: 3rem;
+    }
+    .redes-sociales {
+        align-content: center;
+    }
+}
